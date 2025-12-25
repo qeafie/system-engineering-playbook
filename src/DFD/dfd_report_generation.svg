@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" style="background-color: #000;">
+  <defs>
+    <style>
+      .process { fill: none; stroke: #fff; stroke-width: 2; }
+      .storage { fill: none; stroke: #fff; stroke-width: 2; }
+      .entity { fill: none; stroke: #fff; stroke-width: 2; }
+      .flow { fill: none; stroke: #fff; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .text { fill: #fff; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+      .label { fill: #fff; font-family: Arial, sans-serif; font-size: 12px; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#fff" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="800" y="30" class="text" style="font-size: 18px; font-weight: bold;">DFD: Анализ и генерация отчета</text>
+  
+  <!-- External Entity: HR-специалист -->
+  <rect x="50" y="400" width="150" height="80" class="entity"/>
+  <text x="125" y="445" class="text">HR-специалист</text>
+  
+  <!-- Process 1: Извлечение данных -->
+  <rect x="320" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="410" y="435" class="text">1. Извлечение</text>
+  <text x="410" y="455" class="text" style="font-size: 12px;">данных интервью</text>
+  
+  <!-- Process 2: Анализ ответов -->
+  <rect x="590" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="680" y="435" class="text">2. Анализ</text>
+  <text x="680" y="455" class="text" style="font-size: 12px;">ответов AI</text>
+  
+  <!-- Process 3: Оценка компетенций -->
+  <rect x="860" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="950" y="435" class="text">3. Оценка</text>
+  <text x="950" y="455" class="text" style="font-size: 12px;">компетенций</text>
+  
+  <!-- Process 4: Формирование отчета -->
+  <rect x="1130" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="1220" y="435" class="text">4. Формирование</text>
+  <text x="1220" y="455" class="text" style="font-size: 12px;">отчета</text>
+  
+  <!-- Data Store: Записи интервью -->
+  <line x1="450" y1="150" x2="750" y2="150" class="storage"/>
+  <line x1="450" y1="150" x2="450" y2="210" class="storage"/>
+  <line x1="450" y1="210" x2="750" y2="210" class="storage"/>
+  <line x1="750" y1="150" x2="750" y2="210" class="storage"/>
+  <text x="600" y="185" class="text">Записи интервью</text>
+  
+  <!-- Data Store: Критерии оценки -->
+  <line x1="850" y1="150" x2="1150" y2="150" class="storage"/>
+  <line x1="850" y1="150" x2="850" y2="210" class="storage"/>
+  <line x1="850" y1="210" x2="1150" y2="210" class="storage"/>
+  <line x1="1150" y1="150" x2="1150" y2="210" class="storage"/>
+  <text x="1000" y="185" class="text">Критерии оценки</text>
+  
+  <!-- Data Store: Отчеты -->
+  <line x1="650" y1="700" x2="950" y2="700" class="storage"/>
+  <line x1="650" y1="700" x2="650" y2="760" class="storage"/>
+  <line x1="650" y1="760" x2="950" y2="760" class="storage"/>
+  <line x1="950" y1="700" x2="950" y2="760" class="storage"/>
+  <text x="800" y="735" class="text">Отчеты</text>
+  
+  <!-- Flows -->
+  <!-- HR to Process 1 -->
+  <path d="M 200 440 L 320 440" class="flow"/>
+  <text x="260" y="430" class="label">Запрос</text>
+  
+  <!-- Process 1 to Interview DB -->
+  <path d="M 410 390 L 410 280 L 600 280 L 600 210" class="flow"/>
+  <text x="420" y="300" class="label">Запрос</text>
+  
+  <!-- Interview DB to Process 1 -->
+  <path d="M 630 210 L 630 280 L 440 280 L 440 390" class="flow"/>
+  <text x="640" y="300" class="label">Данные</text>
+  
+  <!-- Process 1 to Process 2 -->
+  <path d="M 500 440 L 590 440" class="flow"/>
+  <text x="545" y="430" class="label">Ответы</text>
+  
+  <!-- Process 2 to Process 3 -->
+  <path d="M 770 440 L 860 440" class="flow"/>
+  <text x="815" y="430" class="label">Результат</text>
+  
+  <!-- Process 3 to Criteria DB -->
+  <path d="M 950 390 L 950 280 L 1000 280 L 1000 210" class="flow"/>
+  <text x="960" y="300" class="label">Запрос</text>
+  
+  <!-- Criteria DB to Process 3 -->
+  <path d="M 970 210 L 970 280 L 920 280 L 920 390" class="flow"/>
+  <text x="980" y="300" class="label">Критерии</text>
+  
+  <!-- Process 3 to Process 4 -->
+  <path d="M 1040 440 L 1130 440" class="flow"/>
+  <text x="1085" y="430" class="label">Оценки</text>
+  
+  <!-- Process 4 to Reports DB -->
+  <path d="M 1220 490 L 1220 650 L 900 650 L 900 700" class="flow"/>
+  <text x="1230" y="570" class="label">Отчет</text>
+  
+  <!-- Reports DB to HR -->
+  <path d="M 650 730 L 250 730 L 250 480" class="flow"/>
+  <text x="450" y="720" class="label">Отчет</text>
+  
+</svg>

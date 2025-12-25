@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" style="background-color: #000;">
+  <defs>
+    <style>
+      .process { fill: none; stroke: #fff; stroke-width: 2; }
+      .storage { fill: none; stroke: #fff; stroke-width: 2; }
+      .entity { fill: none; stroke: #fff; stroke-width: 2; }
+      .flow { fill: none; stroke: #fff; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .text { fill: #fff; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+      .label { fill: #fff; font-family: Arial, sans-serif; font-size: 12px; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#fff" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="800" y="30" class="text" style="font-size: 18px; font-weight: bold;">DFD: Проведение AI-интервью</text>
+  
+  <!-- External Entity: Кандидат -->
+  <rect x="50" y="400" width="150" height="80" class="entity"/>
+  <text x="125" y="445" class="text">Кандидат</text>
+  
+  <!-- External Entity: AI Система -->
+  <rect x="1400" y="400" width="150" height="80" class="entity"/>
+  <text x="1475" y="435" class="text">AI Система</text>
+  
+  <!-- Process 1: Получение согласия -->
+  <rect x="280" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="370" y="435" class="text">1. Получение</text>
+  <text x="370" y="455" class="text" style="font-size: 12px;">согласия 152-ФЗ</text>
+  
+  <!-- Process 2: Генерация вопросов -->
+  <rect x="550" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="640" y="435" class="text">2. Генерация</text>
+  <text x="640" y="455" class="text" style="font-size: 12px;">вопросов AI</text>
+  
+  <!-- Process 3: Получение ответов -->
+  <rect x="820" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="910" y="435" class="text">3. Получение</text>
+  <text x="910" y="455" class="text" style="font-size: 12px;">ответов</text>
+  
+  <!-- Process 4: Запись интервью -->
+  <rect x="1090" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="1180" y="435" class="text">4. Запись</text>
+  <text x="1180" y="455" class="text" style="font-size: 12px;">интервью</text>
+  
+  <!-- Data Store: Согласия -->
+  <line x1="250" y1="150" x2="550" y2="150" class="storage"/>
+  <line x1="250" y1="150" x2="250" y2="210" class="storage"/>
+  <line x1="250" y1="210" x2="550" y2="210" class="storage"/>
+  <line x1="550" y1="150" x2="550" y2="210" class="storage"/>
+  <text x="400" y="185" class="text">Согласия</text>
+  
+  <!-- Data Store: Шаблоны вопросов -->
+  <line x1="650" y1="150" x2="950" y2="150" class="storage"/>
+  <line x1="650" y1="150" x2="650" y2="210" class="storage"/>
+  <line x1="650" y1="210" x2="950" y2="210" class="storage"/>
+  <line x1="950" y1="150" x2="950" y2="210" class="storage"/>
+  <text x="800" y="175" class="text">Шаблоны</text>
+  <text x="800" y="195" class="text" style="font-size: 12px;">вопросов</text>
+  
+  <!-- Data Store: Записи интервью -->
+  <line x1="1050" y1="150" x2="1350" y2="150" class="storage"/>
+  <line x1="1050" y1="150" x2="1050" y2="210" class="storage"/>
+  <line x1="1050" y1="210" x2="1350" y2="210" class="storage"/>
+  <line x1="1350" y1="150" x2="1350" y2="210" class="storage"/>
+  <text x="1200" y="185" class="text">Записи интервью</text>
+  
+  <!-- Data Store: База кандидатов -->
+  <line x1="650" y1="700" x2="950" y2="700" class="storage"/>
+  <line x1="650" y1="700" x2="650" y2="760" class="storage"/>
+  <line x1="650" y1="760" x2="950" y2="760" class="storage"/>
+  <line x1="950" y1="700" x2="950" y2="760" class="storage"/>
+  <text x="800" y="735" class="text">База кандидатов</text>
+  
+  <!-- Flows -->
+  <!-- Candidate to Process 1 -->
+  <path d="M 200 440 L 280 440" class="flow"/>
+  <text x="240" y="430" class="label">Заявка</text>
+  
+  <!-- Process 1 to Consent DB -->
+  <path d="M 370 390 L 370 280 L 400 280 L 400 210" class="flow"/>
+  <text x="380" y="300" class="label">Согласие</text>
+  
+  <!-- Process 1 to Process 2 -->
+  <path d="M 460 440 L 550 440" class="flow"/>
+  <text x="505" y="430" class="label">Старт</text>
+  
+  <!-- Process 2 to Templates DB -->
+  <path d="M 640 390 L 640 280 L 800 280 L 800 210" class="flow"/>
+  <text x="650" y="300" class="label">Запрос</text>
+  
+  <!-- Templates DB to Process 2 -->
+  <path d="M 830 210 L 830 280 L 670 280 L 670 390" class="flow"/>
+  <text x="840" y="300" class="label">Шаблоны</text>
+  
+  <!-- Process 2 to Process 3 -->
+  <path d="M 730 440 L 820 440" class="flow"/>
+  <text x="775" y="430" class="label">Вопросы</text>
+  
+  <!-- Process 2 to AI -->
+  <path d="M 640 390 L 640 340 L 1475 340 L 1475 400" class="flow"/>
+  <text x="650" y="330" class="label">Вопросы к AI</text>
+  
+  <!-- Process 3 to Candidates DB -->
+  <path d="M 910 490 L 910 650 L 800 650 L 800 700" class="flow"/>
+  <text x="920" y="570" class="label">Ответы</text>
+  
+  <!-- Process 3 to Process 4 -->
+  <path d="M 1000 440 L 1090 440" class="flow"/>
+  <text x="1045" y="430" class="label">Данные</text>
+  
+  <!-- Process 4 to Interview Records -->
+  <path d="M 1180 390 L 1180 280 L 1200 280 L 1200 210" class="flow"/>
+  <text x="1190" y="300" class="label">Запись</text>
+  
+</svg>

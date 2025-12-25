@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" style="background-color: #000;">
+  <defs>
+    <style>
+      .process { fill: none; stroke: #fff; stroke-width: 2; }
+      .storage { fill: none; stroke: #fff; stroke-width: 2; }
+      .entity { fill: none; stroke: #fff; stroke-width: 2; }
+      .flow { fill: none; stroke: #fff; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .text { fill: #fff; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+      .label { fill: #fff; font-family: Arial, sans-serif; font-size: 12px; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#fff" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="800" y="30" class="text" style="font-size: 18px; font-weight: bold;">DFD: Соответствие 152-ФЗ</text>
+  
+  <!-- External Entity: Кандидат -->
+  <rect x="50" y="400" width="150" height="80" class="entity"/>
+  <text x="125" y="445" class="text">Кандидат</text>
+  
+  <!-- Process 1: Получение согласия -->
+  <rect x="320" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="410" y="435" class="text">1. Получение</text>
+  <text x="410" y="455" class="text" style="font-size: 12px;">согласия</text>
+  
+  <!-- Process 2: Шифрование данных -->
+  <rect x="600" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="690" y="435" class="text">2. Шифрование</text>
+  <text x="690" y="455" class="text" style="font-size: 12px;">данных</text>
+  
+  <!-- Process 3: Безопасное хранение -->
+  <rect x="880" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="970" y="435" class="text">3. Безопасное</text>
+  <text x="970" y="455" class="text" style="font-size: 12px;">хранение</text>
+  
+  <!-- Process 4: Контроль доступа -->
+  <rect x="600" y="620" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="690" y="665" class="text">4. Контроль</text>
+  <text x="690" y="685" class="text" style="font-size: 12px;">доступа</text>
+  
+  <!-- Process 5: Аудит -->
+  <rect x="1160" y="390" width="180" height="100" rx="20" ry="20" class="process"/>
+  <text x="1250" y="435" class="text">5. Аудит</text>
+  <text x="1250" y="455" class="text" style="font-size: 12px;">действий</text>
+  
+  <!-- Data Store: Согласия -->
+  <line x1="250" y1="150" x2="550" y2="150" class="storage"/>
+  <line x1="250" y1="150" x2="250" y2="210" class="storage"/>
+  <line x1="250" y1="210" x2="550" y2="210" class="storage"/>
+  <line x1="550" y1="150" x2="550" y2="210" class="storage"/>
+  <text x="400" y="185" class="text">Согласия</text>
+  
+  <!-- Data Store: Зашифрованные данные -->
+  <line x1="850" y1="150" x2="1150" y2="150" class="storage"/>
+  <line x1="850" y1="150" x2="850" y2="210" class="storage"/>
+  <line x1="850" y1="210" x2="1150" y2="210" class="storage"/>
+  <line x1="1150" y1="150" x2="1150" y2="210" class="storage"/>
+  <text x="1000" y="175" class="text">Зашифрованные</text>
+  <text x="1000" y="195" class="text" style="font-size: 12px;">данные</text>
+  
+  <!-- Data Store: Журнал аудита -->
+  <line x1="1250" y1="600" x2="1550" y2="600" class="storage"/>
+  <line x1="1250" y1="600" x2="1250" y2="660" class="storage"/>
+  <line x1="1250" y1="660" x2="1550" y2="660" class="storage"/>
+  <line x1="1550" y1="600" x2="1550" y2="660" class="storage"/>
+  <text x="1400" y="635" class="text">Журнал аудита</text>
+  
+  <!-- Flows -->
+  <!-- Candidate to Process 1 -->
+  <path d="M 200 440 L 320 440" class="flow"/>
+  <text x="260" y="430" class="label">Заявка</text>
+  
+  <!-- Process 1 to Consent DB -->
+  <path d="M 410 390 L 410 280 L 400 280 L 400 210" class="flow"/>
+  <text x="420" y="300" class="label">Согласие</text>
+  
+  <!-- Process 1 to Process 2 -->
+  <path d="M 500 440 L 600 440" class="flow"/>
+  <text x="550" y="430" class="label">Данные</text>
+  
+  <!-- Process 2 to Process 3 -->
+  <path d="M 780 440 L 880 440" class="flow"/>
+  <text x="830" y="430" class="label">Зашифр.</text>
+  
+  <!-- Process 3 to Encrypted DB -->
+  <path d="M 970 390 L 970 280 L 1000 280 L 1000 210" class="flow"/>
+  <text x="980" y="300" class="label">Запись</text>
+  
+  <!-- Process 3 to Process 4 -->
+  <path d="M 970 490 L 970 550 L 740 550 L 740 620" class="flow"/>
+  <text x="980" y="540" class="label">Запрос</text>
+  
+  <!-- Encrypted DB to Process 4 -->
+  <path d="M 1030 210 L 1030 280 L 640 280 L 640 620" class="flow"/>
+  <text x="1040" y="300" class="label">Данные</text>
+  
+  <!-- Process 3 to Process 5 -->
+  <path d="M 1060 440 L 1160 440" class="flow"/>
+  <text x="1110" y="430" class="label">Событие</text>
+  
+  <!-- Process 4 to Process 5 -->
+  <path d="M 780 670 L 1100 670 L 1100 490 L 1160 490" class="flow"/>
+  <text x="940" y="660" class="label">Событие</text>
+  
+  <!-- Process 5 to Audit Log -->
+  <path d="M 1250 490 L 1250 550 L 1400 550 L 1400 600" class="flow"/>
+  <text x="1260" y="540" class="label">Запись</text>
+  
+</svg>
