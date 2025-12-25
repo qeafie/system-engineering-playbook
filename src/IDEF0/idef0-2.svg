@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="982pt" height="520pt" viewBox="0.0 0.0 982.0 520.0" id="preview">
+<style type="text/css">
+  svg {
+    background-color: white;
+  }
+  text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+</style>
+<g>
+  <rect x="354" y="120" width="316" height="100" fill="none" stroke="black"/>
+<text text-anchor="middle" x="512" y="170">Анализ результатов интервью и генерация отчета</text>
+
+  <line x1="20" y1="170" x2="354" y2="170" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="354,170 348,173 348,167 354,170"/>
+<text text-anchor="start" x="25" y="165">Сырые данные интервью (текст, эмоции, видео)</text>
+
+<line x1="20" y1="150" x2="354" y2="150" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="354,150 348,153 348,147 354,150"/>
+<text text-anchor="start" x="25" y="145">Матрица компетенций для вакансии</text>
+
+<line x1="20" y1="190" x2="354" y2="190" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="354,190 348,193 348,187 354,190"/>
+<text text-anchor="start" x="25" y="185">Эталонные профили успешных кандидатов</text>
+
+<line x1="670" y1="180" x2="962" y2="180" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="962,180 956,183 956,177 962,180"/>
+<text text-anchor="end" x="957" y="175">Структурированный отчет (оценка 1-10)</text>
+
+<line x1="670" y1="200" x2="962" y2="200" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="962,200 956,203 956,197 962,200"/>
+<text text-anchor="end" x="957" y="195">Эмоциональный профиль кандидата</text>
+
+<line x1="670" y1="140" x2="962" y2="140" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="962,140 956,143 956,137 962,140"/>
+<text text-anchor="end" x="957" y="135">Ключевые моменты и цитаты</text>
+
+<line x1="670" y1="160" x2="962" y2="160" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="962,160 956,163 956,157 962,160"/>
+<text text-anchor="end" x="957" y="155">Рекомендация (да/нет/на рассмотрение)</text>
+
+<line x1="512" y1="60" x2="512" y2="120" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="512,120 509,114 515,114 512,120"/>
+<text text-anchor="middle" x="512" y="55">Критерии оценки (точность ≥85%)</text>
+
+<line x1="492" y1="80" x2="492" y2="120" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="492,120 489,114 495,114 492,120"/>
+<text text-anchor="middle" x="492" y="75">Время генерации (&lt;5 минут)</text>
+
+<line x1="532" y1="40" x2="532" y2="120" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="532,120 529,114 535,114 532,120"/>
+<text text-anchor="middle" x="532" y="35">Стандарты отчетности HR</text>
+
+<line x1="512" y1="460" x2="512" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="512,220 509,226 515,226 512,220"/>
+<text text-anchor="middle" x="512" y="475">PyAudioAnalysis (анализ эмоций)</text>
+
+<line x1="472" y1="440" x2="472" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="472,220 469,226 475,226 472,220"/>
+<text text-anchor="middle" x="472" y="455">EmotiEffLib (микровыражения)</text>
+
+<line x1="492" y1="420" x2="492" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="492,220 489,226 495,226 492,220"/>
+<text text-anchor="middle" x="492" y="435">LLM для анализа текста</text>
+
+<line x1="552" y1="260" x2="552" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="552,220 549,226 555,226 552,220"/>
+<text text-anchor="middle" x="552" y="275">Шаблоны отчетов</text>
+
+<line x1="532" y1="480" x2="532" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="532,220 529,226 535,226 532,220"/>
+<text text-anchor="middle" x="532" y="495">Вычислительные ресурсы для ML</text>
+
+</g>
+</svg>

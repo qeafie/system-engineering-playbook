@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="874pt" height="360pt" viewBox="0.0 0.0 874.0 360.0" id="preview">
+<style type="text/css">
+  svg {
+    background-color: white;
+  }
+  text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+</style>
+<g>
+  <rect x="270" y="120" width="304" height="100" fill="none" stroke="black"/>
+<text text-anchor="middle" x="422" y="170">Обеспечение соответствия 152-ФЗ и защита ПДн</text>
+
+  <line x1="20" y1="190" x2="270" y2="190" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="270,190 264,193 264,187 270,190"/>
+<text text-anchor="start" x="25" y="185">Персональные данные кандидатов</text>
+
+<line x1="20" y1="150" x2="270" y2="150" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="270,150 264,153 264,147 270,150"/>
+<text text-anchor="start" x="25" y="145">Видео-аудио записи интервью</text>
+
+<line x1="20" y1="170" x2="270" y2="170" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="270,170 264,173 264,167 270,170"/>
+<text text-anchor="start" x="25" y="165">Запросы на доступ к данным</text>
+
+<line x1="574" y1="200" x2="854" y2="200" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="854,200 848,203 848,197 854,200"/>
+<text text-anchor="end" x="849" y="195">Юридически значимые согласия на ПДн</text>
+
+<line x1="574" y1="160" x2="854" y2="160" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="854,160 848,163 848,157 854,160"/>
+<text text-anchor="end" x="849" y="155">Зашифрованные данные</text>
+
+<line x1="574" y1="140" x2="854" y2="140" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="854,140 848,143 848,137 854,140"/>
+<text text-anchor="end" x="849" y="135">Журналы обработки ПДн</text>
+
+<line x1="574" y1="180" x2="854" y2="180" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="854,180 848,183 848,177 854,180"/>
+<text text-anchor="end" x="849" y="175">Ответы на запросы субъектов ПДн</text>
+
+<line x1="402" y1="60" x2="402" y2="120" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="402,120 399,114 405,114 402,120"/>
+<text text-anchor="middle" x="402" y="55">152-ФЗ "О персональных данных"</text>
+
+<line x1="442" y1="80" x2="442" y2="120" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="442,120 439,114 445,114 442,120"/>
+<text text-anchor="middle" x="442" y="75">ГОСТ Р 34.10-2012 (ЭЦП)</text>
+
+<line x1="422" y1="40" x2="422" y2="120" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="422,120 419,114 425,114 422,120"/>
+<text text-anchor="middle" x="422" y="35">Внутренние политики безопасности</text>
+
+<line x1="412" y1="300" x2="412" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="412,220 409,226 415,226 412,220"/>
+<text text-anchor="middle" x="412" y="315">Система цифровой подписи</text>
+
+<line x1="452" y1="280" x2="452" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="452,220 449,226 455,226 452,220"/>
+<text text-anchor="middle" x="452" y="295">Шифрование AES-256/TLS 1.3</text>
+
+<line x1="392" y1="260" x2="392" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="392,220 389,226 395,226 392,220"/>
+<text text-anchor="middle" x="392" y="275">Система журналирования</text>
+
+<line x1="432" y1="320" x2="432" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="432,220 429,226 435,226 432,220"/>
+<text text-anchor="middle" x="432" y="335">Хранилище согласий</text>
+
+</g>
+</svg>

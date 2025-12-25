@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1977pt" height="700pt" viewBox="0.0 0.0 1977.0 700.0" id="preview">
+<style type="text/css">
+  svg {
+    background-color: white;
+  }
+  text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+</style>
+<g>
+  <rect x="354" y="120" width="250" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="479" y="150">ГЕНЕРАЦИЯ СТРУКТУРИРОВАННОГО ОТЧЕТА</text>
+
+<rect x="624" y="220" width="208" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="728" y="250">ФОРМИРОВАНИЕ ИТОГОВОЙ ОЦЕНКИ</text>
+
+<rect x="852" y="320" width="208" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="956" y="350">АНАЛИЗ НЕВЕРБАЛЬНЫХ СИГНАЛОВ</text>
+
+<rect x="1080" y="420" width="202" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="1181" y="450">АНАЛИЗ СОДЕРЖАТЕЛЬНОЙ ЧАСТИ</text>
+
+<rect x="1302" y="520" width="196" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="1400" y="550">ПРЕДОБРАБОТКА СЫРЫХ ДАННЫХ</text>
+
+  <line x1="20" y1="150" x2="354" y2="150" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="354,150 348,153 348,147 354,150"/>
+<text text-anchor="start" x="25" y="145">Все Аналитические Данные Шаблоны Отчетности</text>
+
+<line x1="20" y1="250" x2="624" y2="250" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="624,250 618,253 618,247 624,250"/>
+<text text-anchor="start" x="25" y="245">Оценки По Компетенциям Эмоциональный Профиль</text>
+
+<line x1="20" y1="350" x2="852" y2="350" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="852,350 846,353 846,347 852,350"/>
+<text text-anchor="start" x="25" y="345">Данные Эмоций Микровыражений Тайминг</text>
+
+<line x1="20" y1="450" x2="1080" y2="450" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1080,450 1074,453 1074,447 1080,450"/>
+<text text-anchor="start" x="25" y="445">Транскрипт Интервью Матрица Компетенций</text>
+
+<line x1="20" y1="550" x2="1302" y2="550" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1302,550 1296,553 1296,547 1302,550"/>
+<text text-anchor="start" x="25" y="545">Сырые Данные Интервью Видео Аудио Транскрипт</text>
+
+<line x1="604" y1="150" x2="1957" y2="150" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1957,150 1951,153 1951,147 1957,150"/>
+<text text-anchor="end" x="1952" y="145">PDF Отчет JSON Дамп Ссылки На Видеофрагменты</text>
+
+<line x1="832" y1="250" x2="1957" y2="250" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1957,250 1951,253 1951,247 1957,250"/>
+<text text-anchor="end" x="1952" y="245">Итоговый Балл 1-10 Рекомендация Да Нет Приоритетная Категория</text>
+
+<line x1="1060" y1="350" x2="1957" y2="350" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1957,350 1951,353 1951,347 1957,350"/>
+<text text-anchor="end" x="1952" y="345">Эмоциональный Профиль Метрики Искренности График Вовлеченности</text>
+
+<line x1="1282" y1="450" x2="1957" y2="450" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1957,450 1951,453 1951,447 1957,450"/>
+<text text-anchor="end" x="1952" y="445">Оценка По Компетенциям Ключевые Цитаты Карта Соответствий</text>
+
+<line x1="1498" y1="550" x2="1957" y2="550" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1957,550 1951,553 1951,547 1957,550"/>
+<text text-anchor="end" x="1952" y="545">Очищенный Текст Нормализованные Эмоции Метрики Качества</text>
+
+<line x1="479" y1="60" x2="479" y2="120" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="479,120 476,114 482,114 479,120"/>
+<text text-anchor="middle" x="479" y="55">Время Генерации &lt;5 Мин Стандарты Отчетности</text>
+
+<line x1="728" y1="80" x2="728" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="728,220 725,214 731,214 728,220"/>
+<text text-anchor="middle" x="728" y="75">Весовые Коэффициенты Вакансии Правила Принятия Решений</text>
+
+<line x1="956" y1="60" x2="956" y2="320" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="956,320 953,314 959,314 956,320"/>
+<text text-anchor="middle" x="956" y="55">Пороги Достоверности 82%+ Модели Анализа Эмоций</text>
+
+<line x1="1181" y1="40" x2="1181" y2="420" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1181,420 1178,414 1184,414 1181,420"/>
+<text text-anchor="middle" x="1181" y="35">Критерии Оценки Вакансии Эталонные Профили</text>
+
+<line x1="1400" y1="40" x2="1400" y2="520" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1400,520 1397,514 1403,514 1400,520"/>
+<text text-anchor="middle" x="1400" y="35">Стандарты Качества Данных</text>
+
+<line x1="479" y1="640" x2="479" y2="180" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="479,180 476,186 482,186 479,180"/>
+<text text-anchor="middle" x="479" y="655">Генератор Отчетов Сервис Рендеринга Шаблоны</text>
+
+<line x1="728" y1="620" x2="728" y2="280" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="728,280 725,286 731,286 728,280"/>
+<text text-anchor="middle" x="728" y="635">Алгоритм Агрегации Оценок Система Ранжирования</text>
+
+<line x1="956" y1="640" x2="956" y2="380" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="956,380 953,386 959,386 956,380"/>
+<text text-anchor="middle" x="956" y="655">EmotiEffLib PyAudioAnalysis Статистические Модели</text>
+
+<line x1="1181" y1="620" x2="1181" y2="480" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1181,480 1178,486 1184,486 1181,480"/>
+<text text-anchor="middle" x="1181" y="635">LLM Анализатор База Эталонных Ответов Система Оценки</text>
+
+<line x1="1400" y1="660" x2="1400" y2="580" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1400,580 1397,586 1403,586 1400,580"/>
+<text text-anchor="middle" x="1400" y="675">Алгоритмы Фильтрации Шума Нормализатор Данных</text>
+
+</g>
+</svg>

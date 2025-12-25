@@ -1,6 +1,7 @@
 # Summary
 - [ТЗ](./pages/ts.md)
 - [C4](./pages/c4.md)
+- [IDEF0](./pages/idef0.md)
 - [IDEF3](./pages/idef3.md)
 - [DFD](./pages/dfd.md)
 - [UML](./pages/uml.md)

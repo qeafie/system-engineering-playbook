@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2097pt" height="700pt" viewBox="0.0 0.0 2097.0 700.0" id="preview">
+<style type="text/css">
+  svg {
+    background-color: white;
+  }
+  text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+</style>
+<g>
+  <rect x="461" y="120" width="190" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="556" y="150">ВЕДЕНИЕ ЖУРНАЛОВ И АУДИТА</text>
+
+<rect x="671" y="220" width="232" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="787" y="250">ОБРАБОТКА ЗАПРОСОВ СУБЪЕКТОВ ПДН</text>
+
+<rect x="923" y="320" width="190" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="1018" y="350">КОНТРОЛЬ ДОСТУПА К ДАННЫМ</text>
+
+<rect x="1133" y="420" width="232" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="1249" y="450">ОБЕСПЕЧЕНИЕ БЕЗОПАСНОГО ХРАНЕНИЯ</text>
+
+<rect x="1385" y="520" width="268" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="1519" y="550">УПРАВЛЕНИЕ СОГЛАСИЯМИ НА ОБРАБОТКУ ПДН</text>
+
+  <line x1="20" y1="150" x2="461" y2="150" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="461,150 455,153 455,147 461,150"/>
+<text text-anchor="start" x="25" y="145">События Обработки ПДН Изменения Данных Запросы Доступа</text>
+
+<line x1="20" y1="250" x2="671" y2="250" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="671,250 665,253 665,247 671,250"/>
+<text text-anchor="start" x="25" y="245">Запросы Доступа Исправления Удаления</text>
+
+<line x1="20" y1="350" x2="923" y2="350" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="923,350 917,353 917,347 923,350"/>
+<text text-anchor="start" x="25" y="345">Запросы Доступа Роли Пользователей</text>
+
+<line x1="20" y1="450" x2="1133" y2="450" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1133,450 1127,453 1127,447 1133,450"/>
+<text text-anchor="start" x="25" y="445">Персональные Данные Медиаконтент</text>
+
+<line x1="20" y1="550" x2="1385" y2="550" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1385,550 1379,553 1379,547 1385,550"/>
+<text text-anchor="start" x="25" y="545">Запрос На Обработку ПДН Данные Кандидата</text>
+
+<line x1="651" y1="150" x2="2077" y2="150" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="2077,150 2071,153 2071,147 2077,150"/>
+<text text-anchor="end" x="2072" y="145">Невозможные Для Удаления Журналы Отчеты Для Роскомнадзора</text>
+
+<line x1="903" y1="250" x2="2077" y2="250" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="2077,250 2071,253 2071,247 2077,250"/>
+<text text-anchor="end" x="2072" y="245">Выборки Данных Квитанции Об Исполнении Акты Удаления</text>
+
+<line x1="1113" y1="350" x2="2077" y2="350" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="2077,350 2071,353 2071,347 2077,350"/>
+<text text-anchor="end" x="2072" y="345">Токены Доступа Журнал Обращений К ПДН</text>
+
+<line x1="1365" y1="450" x2="2077" y2="450" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="2077,450 2071,453 2071,447 2077,450"/>
+<text text-anchor="end" x="2072" y="445">Зашифрованные Данные AES-256 Хэши Целостности</text>
+
+<line x1="1653" y1="550" x2="2077" y2="550" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="2077,550 2071,553 2071,547 2077,550"/>
+<text text-anchor="end" x="2072" y="545">Юридически Значимое Согласие С ЭЦП Запись В Реестр Согласий</text>
+
+<line x1="556" y1="40" x2="556" y2="120" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="556,120 553,114 559,114 556,120"/>
+<text text-anchor="middle" x="556" y="35">Требования К Журналированию 152-ФЗ</text>
+
+<line x1="787" y1="60" x2="787" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="787,220 784,214 790,214 787,220"/>
+<text text-anchor="middle" x="787" y="55">Сроки Ответа По 152-ФЗ Права Субъектов ПДН</text>
+
+<line x1="1018" y1="80" x2="1018" y2="320" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1018,320 1015,314 1021,314 1018,320"/>
+<text text-anchor="middle" x="1018" y="75">Принцип Минимальных Привилегий Политики Доступа</text>
+
+<line x1="1249" y1="40" x2="1249" y2="420" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1249,420 1246,414 1252,414 1249,420"/>
+<text text-anchor="middle" x="1249" y="35">Политики Хранения ПДН Сроки Хранения</text>
+
+<line x1="1519" y1="40" x2="1519" y2="520" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1519,520 1516,514 1522,514 1519,520"/>
+<text text-anchor="middle" x="1519" y="35">ГОСТ Р 34.10-2012 Форма Согласия 152-ФЗ</text>
+
+<line x1="556" y1="640" x2="556" y2="180" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="556,180 553,186 559,186 556,180"/>
+<text text-anchor="middle" x="556" y="655">Цепочечное Журналирование Elasticsearch Система Аудита</text>
+
+<line x1="787" y1="620" x2="787" y2="280" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="787,280 784,286 790,286 787,280"/>
+<text text-anchor="middle" x="787" y="635">Модуль Поиска ПДН Юридический Движок API Для Субъектов</text>
+
+<line x1="1018" y1="660" x2="1018" y2="380" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1018,380 1015,386 1021,386 1018,380"/>
+<text text-anchor="middle" x="1018" y="675">RBAC Система Сервис Аудита JWT</text>
+
+<line x1="1249" y1="660" x2="1249" y2="480" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1249,480 1246,486 1252,486 1249,480"/>
+<text text-anchor="middle" x="1249" y="675">Шифрование На Лету Безопасное Хранилище MinIO</text>
+
+<line x1="1519" y1="660" x2="1519" y2="580" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1519,580 1516,586 1522,586 1519,580"/>
+<text text-anchor="middle" x="1519" y="675">Система ЭЦП Хранилище Согласий PostgreSQL</text>
+
+</g>
+</svg>
