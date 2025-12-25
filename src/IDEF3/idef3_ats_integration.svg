@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" style="background-color: #000;">
+  <defs>
+    <style>
+      .box { fill: none; stroke: #fff; stroke-width: 2; }
+      .junction { fill: none; stroke: #fff; stroke-width: 2; }
+      .flow { fill: none; stroke: #fff; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .text { fill: #fff; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+      .label { fill: #fff; font-family: Arial, sans-serif; font-size: 11px; }
+      .junction-text { fill: #fff; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; text-anchor: middle; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#fff" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="900" y="30" class="text" style="font-size: 18px; font-weight: bold;">IDEF3: Процесс интеграции с внешними ATS-системами</text>
+  
+  <!-- Start -->
+  <circle cx="100" cy="150" r="20" class="junction"/>
+  <text x="100" y="157" class="junction-text" style="font-size: 14px;">START</text>
+  
+  <!-- UOB 1: Получение события -->
+  <rect x="200" y="100" width="220" height="100" class="box"/>
+  <text x="310" y="140" class="text">1</text>
+  <text x="310" y="160" class="text" style="font-size: 13px;">Получение события</text>
+  <text x="310" y="180" class="text" style="font-size: 12px;">из AI-скрининга</text>
+  
+  <!-- XOR Junction 1 (Event type) -->
+  <circle cx="500" cy="150" r="30" class="junction"/>
+  <text x="500" y="157" class="junction-text">X</text>
+  
+  <!-- UOB 2: Новый кандидат -->
+  <rect x="620" y="50" width="200" height="80" class="box"/>
+  <text x="720" y="80" class="text">2</text>
+  <text x="720" y="100" class="text" style="font-size: 12px;">Создание карточки</text>
+  <text x="720" y="115" class="text" style="font-size: 11px;">в ATS</text>
+  
+  <!-- UOB 3: Сгенерирован отчет -->
+  <rect x="620" y="150" width="200" height="80" class="box"/>
+  <text x="720" y="180" class="text">3</text>
+  <text x="720" y="200" class="text" style="font-size: 12px;">Загрузка отчета</text>
+  <text x="720" y="215" class="text" style="font-size: 11px;">в ATS</text>
+  
+  <!-- UOB 4: Решение HR -->
+  <rect x="620" y="250" width="200" height="80" class="box"/>
+  <text x="720" y="280" class="text">4</text>
+  <text x="720" y="300" class="text" style="font-size: 12px;">Синхронизация</text>
+  <text x="720" y="315" class="text" style="font-size: 11px;">статуса</text>
+  
+  <!-- UOB 5: Запрос из ATS -->
+  <rect x="620" y="350" width="200" height="80" class="box"/>
+  <text x="720" y="380" class="text">5</text>
+  <text x="720" y="400" class="text" style="font-size: 12px;">Получение данных</text>
+  <text x="720" y="415" class="text" style="font-size: 11px;">о кандидате</text>
+  
+  <!-- OR Junction 1 (Merge event processing) -->
+  <circle cx="900" cy="220" r="30" class="junction"/>
+  <text x="900" y="227" class="junction-text">O</text>
+  
+  <!-- AND Junction 1 (Data Sync) -->
+  <rect x="1010" y="190" width="60" height="60" class="junction"/>
+  <text x="1040" y="227" class="junction-text">&amp;</text>
+  
+  <!-- UOB 6: Валидация формата -->
+  <rect x="1150" y="100" width="200" height="80" class="box"/>
+  <text x="1250" y="130" class="text">6</text>
+  <text x="1250" y="150" class="text" style="font-size: 12px;">Валидация</text>
+  <text x="1250" y="165" class="text" style="font-size: 11px;">формата данных</text>
+  
+  <!-- UOB 7: Преобразование -->
+  <rect x="1150" y="200" width="200" height="80" class="box"/>
+  <text x="1250" y="230" class="text">7</text>
+  <text x="1250" y="250" class="text" style="font-size: 12px;">Преобразование</text>
+  <text x="1250" y="265" class="text" style="font-size: 11px;">по схеме ATS</text>
+  
+  <!-- UOB 8: Проверка дубликатов -->
+  <rect x="1150" y="300" width="200" height="80" class="box"/>
+  <text x="1250" y="330" class="text">8</text>
+  <text x="1250" y="350" class="text" style="font-size: 12px;">Проверка</text>
+  <text x="1250" y="365" class="text" style="font-size: 11px;">дубликатов</text>
+  
+  <!-- UOB 9: Консистентность -->
+  <rect x="1150" y="400" width="200" height="80" class="box"/>
+  <text x="1250" y="430" class="text">9</text>
+  <text x="1250" y="450" class="text" style="font-size: 12px;">Обеспечение</text>
+  <text x="1250" y="465" class="text" style="font-size: 11px;">консистентности</text>
+  
+  <!-- XOR Junction 2 (Integration result) -->
+  <circle cx="1250" cy="580" r="30" class="junction"/>
+  <text x="1250" y="587" class="junction-text">X</text>
+  
+  <!-- UOB 10: Запись в лог -->
+  <rect x="1400" y="500" width="200" height="80" class="box"/>
+  <text x="1500" y="530" class="text">10</text>
+  <text x="1500" y="550" class="text" style="font-size: 12px;">Запись в лог</text>
+  <text x="1500" y="565" class="text" style="font-size: 11px;">синхронизации</text>
+  
+  <!-- UOB 11: Подтверждение -->
+  <rect x="1400" y="600" width="200" height="80" class="box"/>
+  <text x="1500" y="630" class="text">11</text>
+  <text x="1500" y="650" class="text" style="font-size: 12px;">Подтверждение</text>
+  <text x="1500" y="665" class="text" style="font-size: 11px;">успеха</text>
+  
+  <!-- UOB 12: Запись ошибки -->
+  <rect x="900" y="700" width="200" height="80" class="box"/>
+  <text x="1000" y="730" class="text">12</text>
+  <text x="1000" y="750" class="text" style="font-size: 12px;">Dead Letter Queue</text>
+  
+  <!-- UOB 13: Ретри -->
+  <rect x="900" y="800" width="200" height="80" class="box"/>
+  <text x="1000" y="830" class="text">13</text>
+  <text x="1000" y="850" class="text" style="font-size: 12px;">Ретри с задержкой</text>
+  
+  <!-- UOB 14: Уведомление админа -->
+  <rect x="900" y="900" width="200" height="80" class="box"/>
+  <text x="1000" y="930" class="text">14</text>
+  <text x="1000" y="950" class="text" style="font-size: 12px;">Уведомление</text>
+  <text x="1000" y="965" class="text" style="font-size: 11px;">администратора</text>
+  
+  <!-- UOB 15: Обновление БД -->
+  <rect x="1400" y="800" width="200" height="80" class="box"/>
+  <text x="1500" y="830" class="text">15</text>
+  <text x="1500" y="850" class="text" style="font-size: 12px;">Обновление статуса</text>
+  <text x="1500" y="865" class="text" style="font-size: 11px;">в основной БД</text>
+  
+  <!-- End 1 -->
+  <circle cx="1500" cy="1000" r="20" class="junction"/>
+  <text x="1500" y="1007" class="junction-text" style="font-size: 14px;">END</text>
+  
+  <!-- End 2 -->
+  <circle cx="1000" cy="1100" r="20" class="junction"/>
+  <text x="1000" y="1107" class="junction-text" style="font-size: 14px;">END</text>
+  
+  <!-- Flows -->
+  <path d="M 120 150 L 200 150" class="flow"/>
+  <path d="M 420 150 L 470 150" class="flow"/>
+  
+  <!-- XOR1 branches -->
+  <path d="M 530 150 L 580 150 L 580 90 L 620 90" class="flow"/>
+  <text x="590" y="120" class="label">Новый</text>
+  
+  <path d="M 530 150 L 580 150 L 580 190 L 620 190" class="flow"/>
+  <text x="590" y="170" class="label">Отчет</text>
+  
+  <path d="M 530 150 L 580 150 L 580 290 L 620 290" class="flow"/>
+  <text x="590" y="220" class="label">Решение</text>
+  
+  <path d="M 530 150 L 580 150 L 580 390 L 620 390" class="flow"/>
+  <text x="590" y="270" class="label">Запрос</text>
+  
+  <!-- To OR1 -->
+  <path d="M 820 90 L 860 90 L 860 220 L 870 220" class="flow"/>
+  <path d="M 820 190 L 860 190 L 860 220 L 870 220" class="flow"/>
+  <path d="M 820 290 L 860 290 L 860 220 L 870 220" class="flow"/>
+  <path d="M 820 390 L 860 390 L 860 220 L 870 220" class="flow"/>
+  
+  <!-- OR1 to AND1 -->
+  <path d="M 930 220 L 1010 220" class="flow"/>
+  
+  <!-- AND1 branches -->
+  <path d="M 1070 220 L 1110 220 L 1110 140 L 1150 140" class="flow"/>
+  <path d="M 1070 220 L 1110 220 L 1110 240 L 1150 240" class="flow"/>
+  <path d="M 1070 220 L 1110 220 L 1110 340 L 1150 340" class="flow"/>
+  <path d="M 1070 220 L 1110 220 L 1110 440 L 1150 440" class="flow"/>
+  
+  <!-- Sync to XOR2 -->
+  <path d="M 1250 180 L 1250 220" class="flow"/>
+  <path d="M 1250 280 L 1250 340" class="flow"/>
+  <path d="M 1250 380 L 1250 440" class="flow"/>
+  <path d="M 1250 480 L 1250 550" class="flow"/>
+  
+  <!-- XOR2 branches -->
+  <path d="M 1280 580 L 1350 580 L 1350 540 L 1400 540" class="flow"/>
+  <text x="1360" y="560" class="label">Успех</text>
+  
+  <path d="M 1220 580 L 1150 580 L 1150 740 L 1100 740" class="flow"/>
+  <text x="1160" y="660" class="label">Ошибка</text>
+  
+  <!-- Success path -->
+  <path d="M 1500 580 L 1500 600" class="flow"/>
+  <path d="M 1500 680 L 1500 800" class="flow"/>
+  <path d="M 1500 880 L 1500 980" class="flow"/>
+  
+  <!-- Error path -->
+  <path d="M 1000 780 L 1000 800" class="flow"/>
+  <path d="M 1000 880 L 1000 900" class="flow"/>
+  <path d="M 1000 980 L 1000 1080" class="flow"/>
+  
+</svg>

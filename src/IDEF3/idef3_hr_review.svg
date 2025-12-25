@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" style="background-color: #000;">
+  <defs>
+    <style>
+      .box { fill: none; stroke: #fff; stroke-width: 2; }
+      .junction { fill: none; stroke: #fff; stroke-width: 2; }
+      .flow { fill: none; stroke: #fff; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .text { fill: #fff; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+      .label { fill: #fff; font-family: Arial, sans-serif; font-size: 11px; }
+      .junction-text { fill: #fff; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; text-anchor: middle; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#fff" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="900" y="30" class="text" style="font-size: 18px; font-weight: bold;">IDEF3: Процесс рассмотрения кандидата HR-менеджером</text>
+  
+  <!-- Start -->
+  <circle cx="100" cy="200" r="20" class="junction"/>
+  <text x="100" y="207" class="junction-text" style="font-size: 14px;">START</text>
+  
+  <!-- UOB 1: Получение уведомления -->
+  <rect x="200" y="150" width="220" height="100" class="box"/>
+  <text x="310" y="190" class="text">1</text>
+  <text x="310" y="210" class="text" style="font-size: 13px;">HR получает</text>
+  <text x="310" y="230" class="text" style="font-size: 13px;">уведомление</text>
+  
+  <!-- UOB 2: Быстрая оценка -->
+  <rect x="500" y="150" width="200" height="100" class="box"/>
+  <text x="600" y="190" class="text">2</text>
+  <text x="600" y="210" class="text" style="font-size: 13px;">Быстрая оценка</text>
+  <text x="600" y="230" class="text" style="font-size: 12px;">(Swipe)</text>
+  
+  <!-- XOR Junction 1 (Quick assessment) -->
+  <circle cx="780" cy="200" r="30" class="junction"/>
+  <text x="780" y="207" class="junction-text">X</text>
+  
+  <!-- UOB 3: Добавить в Подходит -->
+  <rect x="880" y="80" width="200" height="80" class="box"/>
+  <text x="980" y="110" class="text">3</text>
+  <text x="980" y="130" class="text" style="font-size: 13px;">Добавить в</text>
+  <text x="980" y="145" class="text" style="font-size: 12px;">Подходит</text>
+  
+  <!-- UOB 4: Добавить в Не подходит -->
+  <rect x="880" y="250" width="200" height="80" class="box"/>
+  <text x="980" y="280" class="text">4</text>
+  <text x="980" y="300" class="text" style="font-size: 13px;">Добавить в</text>
+  <text x="980" y="315" class="text" style="font-size: 12px;">Не подходит</text>
+  
+  <!-- AND Junction 1 (Detailed review) -->
+  <rect x="1160" y="170" width="60" height="60" class="junction"/>
+  <text x="1190" y="207" class="junction-text">&amp;</text>
+  
+  <!-- UOB 5: Просмотр отчета -->
+  <rect x="1300" y="50" width="200" height="80" class="box"/>
+  <text x="1400" y="80" class="text">5</text>
+  <text x="1400" y="100" class="text" style="font-size: 12px;">Просмотр</text>
+  <text x="1400" y="115" class="text" style="font-size: 11px;">отчета</text>
+  
+  <!-- UOB 6: Просмотр видео -->
+  <rect x="1300" y="150" width="200" height="80" class="box"/>
+  <text x="1400" y="180" class="text">6</text>
+  <text x="1400" y="200" class="text" style="font-size: 12px;">Просмотр ключевых</text>
+  <text x="1400" y="215" class="text" style="font-size: 11px;">моментов видео</text>
+  
+  <!-- UOB 7: Анализ эмоций -->
+  <rect x="1300" y="250" width="200" height="80" class="box"/>
+  <text x="1400" y="280" class="text">7</text>
+  <text x="1400" y="300" class="text" style="font-size: 12px;">Анализ эмоций</text>
+  
+  <!-- UOB 8: Проверка компетенций -->
+  <rect x="1300" y="350" width="200" height="80" class="box"/>
+  <text x="1400" y="380" class="text">8</text>
+  <text x="1400" y="400" class="text" style="font-size: 12px;">Проверка по</text>
+  <text x="1400" y="415" class="text" style="font-size: 11px;">компетенциям</text>
+  
+  <!-- UOB 9: Сравнение с другими -->
+  <rect x="1300" y="500" width="200" height="80" class="box"/>
+  <text x="1400" y="530" class="text">9</text>
+  <text x="1400" y="550" class="text" style="font-size: 12px;">Сравнение</text>
+  <text x="1400" y="565" class="text" style="font-size: 11px;">с другими</text>
+  
+  <!-- UOB 10: Ранжирование -->
+  <rect x="1300" y="600" width="200" height="80" class="box"/>
+  <text x="1400" y="630" class="text">10</text>
+  <text x="1400" y="650" class="text" style="font-size: 12px;">Ранжирование</text>
+  
+  <!-- UOB 11: Принятие решения -->
+  <rect x="1300" y="750" width="200" height="80" class="box"/>
+  <text x="1400" y="780" class="text">11</text>
+  <text x="1400" y="800" class="text" style="font-size: 12px;">Принятие решения</text>
+  
+  <!-- XOR Junction 2 (Final decision) -->
+  <circle cx="1400" cy="920" r="30" class="junction"/>
+  <text x="1400" y="927" class="junction-text">X</text>
+  
+  <!-- UOB 12: Пригласить -->
+  <rect x="200" y="880" width="200" height="80" class="box"/>
+  <text x="300" y="910" class="text">12</text>
+  <text x="300" y="930" class="text" style="font-size: 12px;">Отправка в</text>
+  <text x="300" y="945" class="text" style="font-size: 11px;">следующий этап</text>
+  
+  <!-- UOB 13: Отклонить -->
+  <rect x="500" y="880" width="200" height="80" class="box"/>
+  <text x="600" y="910" class="text">13</text>
+  <text x="600" y="930" class="text" style="font-size: 12px;">Архивация</text>
+  <text x="600" y="945" class="text" style="font-size: 11px;">отчета</text>
+  
+  <!-- UOB 14: Доп. проверка -->
+  <rect x="800" y="880" width="200" height="80" class="box"/>
+  <text x="900" y="910" class="text">14</text>
+  <text x="900" y="930" class="text" style="font-size: 12px;">Запрос доп.</text>
+  <text x="900" y="945" class="text" style="font-size: 11px;">информации</text>
+  
+  <!-- End 1 -->
+  <circle cx="300" cy="1020" r="20" class="junction"/>
+  <text x="300" y="1027" class="junction-text" style="font-size: 14px;">END</text>
+  
+  <!-- End 2 -->
+  <circle cx="600" cy="1020" r="20" class="junction"/>
+  <text x="600" y="1027" class="junction-text" style="font-size: 14px;">END</text>
+  
+  <!-- End 3 -->
+  <circle cx="900" cy="1020" r="20" class="junction"/>
+  <text x="900" y="1027" class="junction-text" style="font-size: 14px;">END</text>
+  
+  <!-- Flows -->
+  <path d="M 120 200 L 200 200" class="flow"/>
+  <path d="M 420 200 L 500 200" class="flow"/>
+  <path d="M 700 200 L 750 200" class="flow"/>
+  
+  <!-- XOR1 branches -->
+  <path d="M 810 200 L 850 200 L 850 120 L 880 120" class="flow"/>
+  <text x="860" y="160" class="label">Подходит</text>
+  
+  <path d="M 810 200 L 850 200 L 850 290 L 880 290" class="flow"/>
+  <text x="860" y="250" class="label">Не подходит</text>
+  
+  <!-- To AND1 -->
+  <path d="M 1080 120 L 1150 120 L 1150 200 L 1160 200" class="flow"/>
+  <path d="M 1080 290 L 1150 290 L 1150 200 L 1160 200" class="flow"/>
+  
+  <!-- AND1 branches -->
+  <path d="M 1220 200 L 1270 200 L 1270 90 L 1300 90" class="flow"/>
+  <path d="M 1220 200 L 1270 200 L 1270 190 L 1300 190" class="flow"/>
+  <path d="M 1220 200 L 1270 200 L 1270 290 L 1300 290" class="flow"/>
+  <path d="M 1220 200 L 1270 200 L 1270 390 L 1300 390" class="flow"/>
+  
+  <!-- Comparative analysis -->
+  <path d="M 1400 430 L 1400 500" class="flow"/>
+  <path d="M 1400 580 L 1400 600" class="flow"/>
+  <path d="M 1400 680 L 1400 750" class="flow"/>
+  <path d="M 1400 830 L 1400 890" class="flow"/>
+  
+  <!-- XOR2 branches -->
+  <path d="M 1370 920 L 1100 920 L 1100 920 L 1000 920" class="flow"/>
+  <text x="1200" y="910" class="label">Пригласить</text>
+  
+  <path d="M 1370 920 L 800 920 L 800 920 L 700 920" class="flow"/>
+  <text x="1000" y="910" class="label">Отклонить</text>
+  
+  <path d="M 1370 920 L 400 920 L 400 920 L 400 920" class="flow"/>
+  <text x="800" y="910" class="label">Доп. проверка</text>
+  
+  <path d="M 300 960 L 300 1000" class="flow"/>
+  <path d="M 600 960 L 600 1000" class="flow"/>
+  <path d="M 900 960 L 900 1000" class="flow"/>
+  
+</svg>
