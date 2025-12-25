@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" style="background-color: #000;">
+  <defs>
+    <style>
+      .box { fill: none; stroke: #fff; stroke-width: 2; }
+      .junction { fill: none; stroke: #fff; stroke-width: 2; }
+      .flow { fill: none; stroke: #fff; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .text { fill: #fff; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+      .label { fill: #fff; font-family: Arial, sans-serif; font-size: 11px; }
+      .junction-text { fill: #fff; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; text-anchor: middle; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#fff" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="900" y="30" class="text" style="font-size: 18px; font-weight: bold;">IDEF3: Процесс проведения AI-интервью</text>
+  
+  <!-- Start -->
+  <circle cx="100" cy="100" r="20" class="junction"/>
+  <text x="100" y="107" class="junction-text" style="font-size: 14px;">START</text>
+  
+  <!-- UOB 1: Переход по ссылке -->
+  <rect x="200" y="50" width="200" height="100" class="box"/>
+  <text x="300" y="90" class="text">1</text>
+  <text x="300" y="110" class="text" style="font-size: 13px;">Переход по ссылке</text>
+  
+  <!-- UOB 2: Показ согласия -->
+  <rect x="480" y="50" width="200" height="100" class="box"/>
+  <text x="580" y="90" class="text">2</text>
+  <text x="580" y="110" class="text" style="font-size: 13px;">Показ согласия</text>
+  <text x="580" y="130" class="text" style="font-size: 12px;">на обработку ПДн</text>
+  
+  <!-- UOB 3: Получение ЭЦП -->
+  <rect x="760" y="50" width="200" height="100" class="box"/>
+  <text x="860" y="90" class="text">3</text>
+  <text x="860" y="110" class="text" style="font-size: 13px;">Получение ЭЦП</text>
+  <text x="860" y="130" class="text" style="font-size: 12px;">согласия</text>
+  
+  <!-- XOR Junction 1 -->
+  <circle cx="1070" cy="100" r="30" class="junction"/>
+  <text x="1070" y="107" class="junction-text">X</text>
+  
+  <!-- UOB 4: Запуск 3D-аватара -->
+  <rect x="1180" y="50" width="200" height="100" class="box"/>
+  <text x="1280" y="90" class="text">4</text>
+  <text x="1280" y="110" class="text" style="font-size: 13px;">Запуск 3D-аватара</text>
+  <text x="1280" y="130" class="text" style="font-size: 12px;">(Unity WebAssembly)</text>
+  
+  <!-- UOB 5: Начало записи -->
+  <rect x="1460" y="50" width="200" height="100" class="box"/>
+  <text x="1560" y="90" class="text">5</text>
+  <text x="1560" y="110" class="text" style="font-size: 13px;">Начало записи</text>
+  <text x="1560" y="130" class="text" style="font-size: 12px;">видео/аудио</text>
+  
+  <!-- UOB 6: Реал-тайм обработка -->
+  <rect x="200" y="250" width="250" height="120" class="box"/>
+  <text x="325" y="290" class="text">6</text>
+  <text x="325" y="310" class="text" style="font-size: 13px;">Реал-тайм обработка</text>
+  <text x="325" y="330" class="text" style="font-size: 11px;">Whisper, Qwen3,</text>
+  <text x="325" y="350" class="text" style="font-size: 11px;">pyAudioAnalysis</text>
+  
+  <!-- UOB 7: Вопрос от AI -->
+  <rect x="530" y="250" width="200" height="100" class="box"/>
+  <text x="630" y="290" class="text">7</text>
+  <text x="630" y="310" class="text" style="font-size: 13px;">Вопрос от</text>
+  <text x="630" y="330" class="text" style="font-size: 13px;">AI-аватара</text>
+  
+  <!-- UOB 8: Ответ кандидата -->
+  <rect x="800" y="250" width="200" height="100" class="box"/>
+  <text x="900" y="290" class="text">8</text>
+  <text x="900" y="310" class="text" style="font-size: 13px;">Ответ</text>
+  <text x="900" y="330" class="text" style="font-size: 13px;">кандидата</text>
+  
+  <!-- UOB 9: Анализ в реальном времени -->
+  <rect x="1070" y="250" width="200" height="100" class="box"/>
+  <text x="1170" y="290" class="text">9</text>
+  <text x="1170" y="310" class="text" style="font-size: 13px;">Анализ</text>
+  <text x="1170" y="330" class="text" style="font-size: 12px;">в реальном времени</text>
+  
+  <!-- XOR Junction 2 (Loop) -->
+  <circle cx="1350" cy="300" r="30" class="junction"/>
+  <text x="1350" y="307" class="junction-text">X</text>
+  
+  <!-- UOB 10: Завершение записи -->
+  <rect x="1460" y="250" width="200" height="100" class="box"/>
+  <text x="1560" y="290" class="text">10</text>
+  <text x="1560" y="310" class="text" style="font-size: 13px;">Завершение</text>
+  <text x="1560" y="330" class="text" style="font-size: 13px;">записи</text>
+  
+  <!-- UOB 11: Сбор сырых данных -->
+  <rect x="1460" y="450" width="200" height="100" class="box"/>
+  <text x="1560" y="490" class="text">11</text>
+  <text x="1560" y="510" class="text" style="font-size: 13px;">Сбор всех</text>
+  <text x="1560" y="530" class="text" style="font-size: 13px;">сырых данных</text>
+  
+  <!-- UOB 12: Завершение сессии -->
+  <rect x="1180" y="600" width="200" height="100" class="box"/>
+  <text x="1280" y="640" class="text">12</text>
+  <text x="1280" y="660" class="text" style="font-size: 13px;">Завершение сессии</text>
+  
+  <!-- UOB 13: Уведомление HR -->
+  <rect x="1460" y="600" width="200" height="100" class="box"/>
+  <text x="1560" y="640" class="text">13</text>
+  <text x="1560" y="660" class="text" style="font-size: 13px;">Уведомление HR</text>
+  
+  <!-- End 1 (Success) -->
+  <circle cx="1560" cy="800" r="20" class="junction"/>
+  <text x="1560" y="807" class="junction-text" style="font-size: 14px;">END</text>
+  
+  <!-- End 2 (Reject) -->
+  <circle cx="1280" cy="800" r="20" class="junction"/>
+  <text x="1280" y="807" class="junction-text" style="font-size: 14px;">END</text>
+  
+  <!-- Flows -->
+  <path d="M 120 100 L 200 100" class="flow"/>
+  <path d="M 400 100 L 480 100" class="flow"/>
+  <path d="M 680 100 L 760 100" class="flow"/>
+  <path d="M 960 100 L 1040 100" class="flow"/>
+  
+  <!-- XOR1 to Avatar (Yes) -->
+  <path d="M 1100 100 L 1180 100" class="flow"/>
+  <text x="1140" y="90" class="label">Согласие Да</text>
+  
+  <!-- XOR1 to Session End (No) -->
+  <path d="M 1070 130 L 1070 650 L 1180 650" class="flow"/>
+  <text x="1080" y="400" class="label">Согласие Нет</text>
+  
+  <path d="M 1380 100 L 1460 100" class="flow"/>
+  
+  <!-- Avatar to Realtime -->
+  <path d="M 1560 150 L 1560 200 L 325 200 L 325 250" class="flow"/>
+  
+  <path d="M 450 300 L 530 300" class="flow"/>
+  <path d="M 730 300 L 800 300" class="flow"/>
+  <path d="M 1000 300 L 1070 300" class="flow"/>
+  <path d="M 1270 300 L 1320 300" class="flow"/>
+  
+  <!-- XOR2 to End Recording (Yes) -->
+  <path d="M 1380 300 L 1460 300" class="flow"/>
+  <text x="1420" y="290" class="label">Завершено</text>
+  
+  <!-- XOR2 to Realtime (No - Loop) -->
+  <path d="M 1350 330 L 1350 400 L 325 400 L 325 370" class="flow"/>
+  <text x="850" y="390" class="label">Продолжить интервью</text>
+  
+  <path d="M 1560 350 L 1560 450" class="flow"/>
+  <path d="M 1560 550 L 1560 780" class="flow"/>
+  
+  <path d="M 1280 700 L 1280 780" class="flow"/>
+  <path d="M 1380 650 L 1460 650" class="flow"/>
+  <path d="M 1560 700 L 1560 780" class="flow"/>
+  
+</svg>
