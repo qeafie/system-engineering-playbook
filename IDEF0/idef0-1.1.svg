@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2057pt" height="700pt" viewBox="0.0 0.0 2057.0 700.0" id="preview">
+<style type="text/css">
+  svg {
+    background-color: white;
+  }
+  text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+</style>
+<g>
+  <rect x="476" y="120" width="238" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="595" y="150">УПРАВЛЕНИЕ ДИАЛОГОМ И ЗАВЕРШЕНИЕМ</text>
+
+<rect x="734" y="220" width="214" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="841" y="250">ГЕНЕРАЦИЯ АДАПТИВНЫХ ВОПРОСОВ</text>
+
+<rect x="968" y="320" width="202" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="1069" y="350">РЕАЛ-ТАЙМ ОБРАБОТКА ОТВЕТОВ</text>
+
+<rect x="1190" y="420" width="196" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="1288" y="450">ПРОВЕДЕНИЕ СЕССИИ ИНТЕРВЬЮ</text>
+
+<rect x="1406" y="520" width="178" height="60" fill="none" stroke="black"/>
+<text text-anchor="middle" x="1495" y="550">УПРАВЛЕНИЕ МЕДИАПОТОКОМ</text>
+
+  <line x1="20" y1="150" x2="476" y2="150" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="476,150 470,153 470,147 476,150"/>
+<text text-anchor="start" x="25" y="145">Данные Всех Модулей Тайминг Сессии</text>
+
+<line x1="20" y1="250" x2="734" y2="250" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="734,250 728,253 728,247 734,250"/>
+<text text-anchor="start" x="25" y="245">Проанализированные Ответы Матрица Компетенций</text>
+
+<line x1="20" y1="350" x2="968" y2="350" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="968,350 962,353 962,347 968,350"/>
+<text text-anchor="start" x="25" y="345">Медиапоток Текущий Контекст Диалога</text>
+
+<line x1="20" y1="450" x2="1190" y2="450" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1190,450 1184,453 1184,447 1190,450"/>
+<text text-anchor="start" x="25" y="445">Пригласительная Ссылка Профиль Вакансии Настройки Интервью</text>
+
+<line x1="20" y1="550" x2="1406" y2="550" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1406,550 1400,553 1400,547 1406,550"/>
+<text text-anchor="start" x="25" y="545">Видео Аудио С Устройства Кандидата</text>
+
+<line x1="714" y1="150" x2="2037" y2="150" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="2037,150 2031,153 2031,147 2037,150"/>
+<text text-anchor="end" x="2032" y="145">Сигнал Завершения Собранные Сырые Данные Статус Сессии</text>
+
+<line x1="948" y1="250" x2="2037" y2="250" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="2037,250 2031,253 2031,247 2037,250"/>
+<text text-anchor="end" x="2032" y="245">Следующий Вопрос Обновленный Контекст</text>
+
+<line x1="1170" y1="350" x2="2037" y2="350" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="2037,350 2031,353 2031,347 2037,350"/>
+<text text-anchor="end" x="2032" y="345">Распознанный Текст Вектор Эмоций Данные Микровыражений</text>
+
+<line x1="1386" y1="450" x2="2037" y2="450" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="2037,450 2031,453 2031,447 2037,450"/>
+<text text-anchor="end" x="2032" y="445">Готовая Сессия С Аватаром</text>
+
+<line x1="1584" y1="560" x2="2037" y2="560" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="2037,560 2031,563 2031,557 2037,560"/>
+<text text-anchor="end" x="2032" y="555">Стабильный Медиапоток</text>
+
+<line x1="1584" y1="540" x2="2037" y2="540" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="2037,540 2031,543 2031,537 2037,540"/>
+<text text-anchor="end" x="2032" y="535">Синхронизированные Данные</text>
+
+<line x1="595" y1="40" x2="595" y2="120" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="595,120 592,114 598,114 595,120"/>
+<text text-anchor="middle" x="595" y="35">Максимальная Длительность 20 Мин Правила Завершения</text>
+
+<line x1="841" y1="60" x2="841" y2="220" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="841,220 838,214 844,214 841,220"/>
+<text text-anchor="middle" x="841" y="55">Логика Интервью По Компетенциям</text>
+
+<line x1="1069" y1="80" x2="1069" y2="320" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1069,320 1066,314 1072,314 1069,320"/>
+<text text-anchor="middle" x="1069" y="75">Требования К Задержке &lt;2 Сек Точность Распознавания &gt;95%</text>
+
+<line x1="1288" y1="40" x2="1288" y2="420" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1288,420 1285,414 1291,414 1288,420"/>
+<text text-anchor="middle" x="1288" y="35">Требования К Интерфейсу Тайминг Интервью</text>
+
+<line x1="1495" y1="40" x2="1495" y2="520" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1495,520 1492,514 1498,514 1495,520"/>
+<text text-anchor="middle" x="1495" y="35">Требования К Качеству Записи</text>
+
+<line x1="595" y1="640" x2="595" y2="180" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="595,180 592,186 598,186 595,180"/>
+<text text-anchor="middle" x="595" y="655">Диалоговый Менеджер Таймер Сессии Система Сохранения Данных</text>
+
+<line x1="841" y1="620" x2="841" y2="280" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="841,280 838,286 844,286 841,280"/>
+<text text-anchor="middle" x="841" y="635">Ollama Qwen3 Кэш Контекста 8000 Токенов</text>
+
+<line x1="1069" y1="640" x2="1069" y2="380" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1069,380 1066,386 1072,386 1069,380"/>
+<text text-anchor="middle" x="1069" y="655">Whisper PyAudioAnalysis EmotiEffLib Вычислительные Ресурсы</text>
+
+<line x1="1288" y1="620" x2="1288" y2="480" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1288,480 1285,486 1291,486 1288,480"/>
+<text text-anchor="middle" x="1288" y="635">Unity WebAssembly Сервер Сессий Браузер Кандидата</text>
+
+<line x1="1495" y1="660" x2="1495" y2="580" stroke="black" stroke-dasharray="5,5"/>
+<polygon fill="black" stroke="black" points="1495,580 1492,586 1498,586 1495,580"/>
+<text text-anchor="middle" x="1495" y="675">WebRTC Сервер Аудио Видео Кодеки Буфер Реального Времени</text>
+
+</g>
+</svg>

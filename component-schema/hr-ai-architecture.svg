@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400">
+  <defs>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#ff0000"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#0000ff"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="1400" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="600" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">
+    Архитектура системы AI-интервьюера
+  </text>
+
+  <!-- Left side labels - Level 1 -->
+  <rect x="20" y="80" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="120" y="110" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Интерфейс кандидата</text>
+
+  <!-- Center - Web Client (Browser) -->
+  <rect x="250" y="80" width="220" height="50" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="360" y="110" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Web-клиент (браузер)</text>
+
+  <!-- Right side - Level 1 -->
+  <rect x="500" y="80" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="600" y="110" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Видео/Аудио поток</text>
+
+  <!-- Arrow down from Web Client -->
+  <path d="M 360 130 L 360 170" stroke="#ff0000" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+  <!-- Arrow up to Web Client -->
+  <path d="M 380 170 L 380 130" stroke="#0000ff" stroke-width="2" fill="none" marker-end="url(#arrowBlue)"/>
+
+  <!-- Left side labels - Level 2 -->
+  <rect x="20" y="180" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="120" y="210" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">3D-аватар (Unity)</text>
+
+  <!-- API Gateway -->
+  <rect x="250" y="180" width="220" height="50" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="360" y="210" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">API Gateway</text>
+
+  <!-- Right side - Level 2 -->
+  <rect x="500" y="180" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="600" y="210" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Аутентификация</text>
+
+  <!-- Arrow down from API Gateway -->
+  <path d="M 360 230 L 360 270" stroke="#ff0000" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+  <!-- Arrow up to API Gateway -->
+  <path d="M 380 270 L 380 230" stroke="#0000ff" stroke-width="2" fill="none" marker-end="url(#arrowBlue)"/>
+
+  <!-- Left side labels - Level 3 -->
+  <rect x="20" y="280" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="120" y="310" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Управление сессией</text>
+
+  <!-- Session Manager -->
+  <rect x="250" y="280" width="220" height="50" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="360" y="310" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Session Manager</text>
+
+  <!-- Right side - Level 3 -->
+  <rect x="500" y="280" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="600" y="310" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Состояние (Redis)</text>
+
+  <!-- Arrow down from Session Manager -->
+  <path d="M 360 330 L 360 370" stroke="#ff0000" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+  <!-- Arrow up to Session Manager -->
+  <path d="M 380 370 L 380 330" stroke="#0000ff" stroke-width="2" fill="none" marker-end="url(#arrowBlue)"/>
+
+  <!-- Left side labels - Level 4 -->
+  <rect x="20" y="380" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="120" y="410" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Медиа-обработка</text>
+
+  <!-- WebRTC Media Server -->
+  <rect x="250" y="380" width="220" height="50" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="360" y="410" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">WebRTC Media Server</text>
+
+  <!-- Right side - Level 4 -->
+  <rect x="500" y="380" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="600" y="410" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Потоковая передача</text>
+
+  <!-- Arrow down from WebRTC -->
+  <path d="M 360 430 L 360 470" stroke="#ff0000" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+  <!-- Arrow up to WebRTC -->
+  <path d="M 380 470 L 380 430" stroke="#0000ff" stroke-width="2" fill="none" marker-end="url(#arrowBlue)"/>
+
+  <!-- Left side labels - Level 5 -->
+  <rect x="20" y="480" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="120" y="510" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">AI-анализ</text>
+
+  <!-- AI Processing Engine -->
+  <rect x="250" y="480" width="220" height="50" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="360" y="510" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">AI Processing Engine</text>
+
+  <!-- Right side - Level 5 -->
+  <rect x="500" y="480" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="600" y="510" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Результаты анализа</text>
+
+  <!-- Arrow down from AI Engine -->
+  <path d="M 360 530 L 360 570" stroke="#ff0000" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+  <!-- Arrow up to AI Engine -->
+  <path d="M 380 570 L 380 530" stroke="#0000ff" stroke-width="2" fill="none" marker-end="url(#arrowBlue)"/>
+
+  <!-- AI Components Section -->
+  <rect x="100" y="600" width="1000" height="280" fill="#f5f5f5" stroke="#666666" stroke-width="2" rx="5"/>
+  <text x="600" y="630" font-family="Arial" font-size="16" font-weight="bold" fill="#000000" text-anchor="middle">AI-микросервисы</text>
+
+  <!-- Speech Recognition -->
+  <rect x="130" y="650" width="180" height="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+  <text x="220" y="675" font-family="Arial" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">Speech Recognition</text>
+  <text x="220" y="695" font-family="Arial" font-size="11" fill="#000000" text-anchor="middle">Whisper</text>
+  <text x="220" y="710" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Транскрипция речи</text>
+
+  <!-- Emotion Analysis -->
+  <rect x="340" y="650" width="180" height="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+  <text x="430" y="675" font-family="Arial" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">Emotion Analysis</text>
+  <text x="430" y="695" font-family="Arial" font-size="11" fill="#000000" text-anchor="middle">pyAudioAnalysis</text>
+  <text x="430" y="710" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Анализ эмоций</text>
+
+  <!-- Microexpression Detection -->
+  <rect x="550" y="650" width="180" height="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+  <text x="640" y="670" font-family="Arial" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">Microexpression</text>
+  <text x="640" y="685" font-family="Arial" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">Detection</text>
+  <text x="640" y="705" font-family="Arial" font-size="11" fill="#000000" text-anchor="middle">EmotiEffLib</text>
+
+  <!-- Question Generator -->
+  <rect x="760" y="650" width="180" height="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+  <text x="850" y="675" font-family="Arial" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">Question Generator</text>
+  <text x="850" y="695" font-family="Arial" font-size="11" fill="#000000" text-anchor="middle">ollama + qwen3</text>
+  <text x="850" y="710" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Генерация вопросов</text>
+
+  <!-- Report Generator -->
+  <rect x="130" y="750" width="180" height="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+  <text x="220" y="775" font-family="Arial" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">Report Generator</text>
+  <text x="220" y="795" font-family="Arial" font-size="11" fill="#000000" text-anchor="middle">PDF/JSON</text>
+  <text x="220" y="810" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Генерация отчетов</text>
+
+  <!-- Compliance Service -->
+  <rect x="340" y="750" width="180" height="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+  <text x="430" y="775" font-family="Arial" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">Compliance</text>
+  <text x="430" y="795" font-family="Arial" font-size="11" fill="#000000" text-anchor="middle">152-ФЗ</text>
+  <text x="430" y="810" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Безопасность ПДн</text>
+
+  <!-- Integration Gateway -->
+  <rect x="550" y="750" width="180" height="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+  <text x="640" y="780" font-family="Arial" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">Integration Gateway</text>
+  <text x="640" y="800" font-family="Arial" font-size="11" fill="#000000" text-anchor="middle">REST API</text>
+  <text x="640" y="815" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Внешние системы</text>
+
+  <!-- Kafka Message Broker -->
+  <rect x="760" y="750" width="180" height="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+  <text x="850" y="775" font-family="Arial" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">Apache Kafka</text>
+  <text x="850" y="795" font-family="Arial" font-size="11" fill="#000000" text-anchor="middle">Event Streaming</text>
+  <text x="850" y="810" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Брокер сообщений</text>
+
+  <!-- Arrow down from AI Section -->
+  <path d="M 360 880 L 360 920" stroke="#ff0000" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+  <!-- Arrow up to AI Section -->
+  <path d="M 380 920 L 380 880" stroke="#0000ff" stroke-width="2" fill="none" marker-end="url(#arrowBlue)"/>
+
+  <!-- Left side labels - Database level -->
+  <rect x="20" y="930" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="120" y="960" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Запрос данных</text>
+
+  <!-- Database (Ellipse) -->
+  <ellipse cx="360" cy="955" rx="110" ry="35" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="360" y="950" font-family="Arial" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">СУБД + БД</text>
+  <text x="360" y="968" font-family="Arial" font-size="11" fill="#000000" text-anchor="middle">PostgreSQL + Redis</text>
+
+  <!-- Right side - Database level -->
+  <rect x="500" y="930" width="200" height="50" fill="#c5b3c6" stroke="#000000" stroke-width="1"/>
+  <text x="600" y="960" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Хранение данных</text>
+
+  <!-- Bottom layer - Three components -->
+  <text x="600" y="1040" font-family="Arial" font-size="16" font-weight="bold" fill="#000000" text-anchor="middle">Компонентная архитектура</text>
+
+  <!-- Component 1 - Presentation -->
+  <rect x="100" y="1070" width="250" height="80" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="225" y="1095" font-family="Arial" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Компонент представления</text>
+  <text x="225" y="1125" font-family="Arial" font-size="12" fill="#000000" text-anchor="middle">Vue.js + Unity WebAssembly</text>
+  
+  <!-- Component 2 - Application Logic -->
+  <rect x="400" y="1070" width="250" height="80" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="525" y="1095" font-family="Arial" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Прикладной компонент</text>
+  <text x="525" y="1125" font-family="Arial" font-size="12" fill="#000000" text-anchor="middle">FastAPI + AI микросервисы</text>
+
+  <!-- Component 3 - Data Access -->
+  <rect x="700" y="1070" width="250" height="80" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="825" y="1095" font-family="Arial" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Компонент доступа</text>
+  <text x="825" y="1110" font-family="Arial" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">к ресурсам</text>
+  <text x="825" y="1135" font-family="Arial" font-size="12" fill="#000000" text-anchor="middle">PostgreSQL + MinIO + Redis</text>
+
+  <!-- Arrows between bottom components -->
+  <path d="M 350 1110 L 400 1110" stroke="#000000" stroke-width="2" fill="none"/>
+  <path d="M 375 1095 L 375 1125" stroke="#000000" stroke-width="2" fill="none"/>
+  <text x="375" y="1090" font-family="Arial" font-size="11" fill="#000000" text-anchor="middle">API</text>
+
+  <path d="M 650 1110 L 700 1110" stroke="#000000" stroke-width="2" fill="none"/>
+  <path d="M 675 1095 L 675 1125" stroke="#000000" stroke-width="2" fill="none"/>
+  <text x="675" y="1090" font-family="Arial" font-size="11" fill="#000000" text-anchor="middle">SQL</text>
+
+  <!-- Bottom labels -->
+  <text x="225" y="1180" font-family="Arial" font-size="13" fill="#000000" text-anchor="middle">Клиент (Web-браузер)</text>
+  <text x="525" y="1180" font-family="Arial" font-size="13" fill="#000000" text-anchor="middle">Web и AS серверы</text>
+  <text x="825" y="1180" font-family="Arial" font-size="13" fill="#000000" text-anchor="middle">Сервер БД</text>
+
+  <!-- Infrastructure note -->
+  <rect x="100" y="1220" width="1000" height="120" fill="#fffacd" stroke="#000000" stroke-width="1" rx="5"/>
+  <text x="600" y="1245" font-family="Arial" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Инфраструктура и оркестрация</text>
+  <text x="600" y="1270" font-family="Arial" font-size="12" fill="#000000" text-anchor="middle">• Kubernetes - оркестрация контейнеров и автоматическое масштабирование</text>
+  <text x="600" y="1290" font-family="Arial" font-size="12" fill="#000000" text-anchor="middle">• Docker - контейнеризация всех микросервисов</text>
+  <text x="600" y="1310" font-family="Arial" font-size="12" fill="#000000" text-anchor="middle">• Elasticsearch + Kibana - логирование и мониторинг</text>
+  <text x="600" y="1330" font-family="Arial" font-size="12" fill="#000000" text-anchor="middle">• Yandex Cloud / AWS - облачная инфраструктура</text>
+
+</svg>
