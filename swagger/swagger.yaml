@@ -1108,10 +1108,7 @@ paths:
         content:
           application/json:
             schema:
-              oneOf:
-                - $ref: '#/components/schemas/WorkableWebhook'
-                - $ref: '#/components/schemas/GreenhouseWebhook'
-                - $ref: '#/components/schemas/CustomWebhook'
+              
       responses:
         '200':
           description: Webhook обработан
@@ -1298,3 +1295,4 @@ paths:
                   total:
                     type: integer
 
+ 
